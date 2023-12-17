@@ -1,0 +1,29 @@
+#board {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    background: Khaki;
+    border: 3px solid black;
+    border-radius: 12px;
+    cursor: crosshair;
+  }
+
+  html, body {
+    background: red;
+  }
+  #left, #right {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  }
+  #left {
+    left: 0;
+  }
+  #right {
+    left: 400px;
+    border-left: 2px solid black;
+  }
+  #left img, #right img {
+    position: absolute;
+    cursor: pointer;
+  }
